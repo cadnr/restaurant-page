@@ -1,0 +1,48 @@
+html {
+    height: 100vh;
+    background-color: linen;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#content {
+    text-align: center;
+    width: 640px;
+    margin: auto;
+    background-color: burlywood;
+}
+
+a {
+    padding: 10px 20px;
+    margin: 10px 20px;
+    background-color: burlywood;
+    border: purple;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+h1 {
+    margin: 0px;
+    background-color: rosybrown;
+}
+
+nav {
+    background-color: sienna;
+    padding: 5px;
+}
+
+div.discount {
+    font-size: 24px;
+    font-weight: 700;
+    font-style: bold;
+    text-decoration: underline #FF7F7F;
+    color: #FF7F7F;
+    margin: 20px auto 40px auto;
+    background-color: #008080;
+    padding: 20px 40px;
+    width: 400px;
+    border-radius: 20px;
+}
