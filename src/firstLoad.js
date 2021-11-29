@@ -31,6 +31,7 @@ const firstLoad = () => {
         + ' Come and try our food on the first day opening of the restaurant!';
     const div3 = document.createElement('div');
     div3.textContent = '50% OFF TODAY!';
+    div3.classList.add('discount');
 
     content.append(header, div1, h2, div2, div3);
 };
