@@ -2,6 +2,7 @@
 
 const firstLoad = () => {
     const content = document.querySelector('#content');
+    content.innerHTML = '';
 
     const mainDiv = document.createElement('div');
     
