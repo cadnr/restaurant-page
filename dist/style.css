@@ -13,6 +13,7 @@ body {
     width: 640px;
     margin: auto;
     background-color: burlywood;
+    padding-bottom: 50px;
 }
 
 a {
@@ -45,4 +46,32 @@ div.discount {
     padding: 20px 40px;
     width: 400px;
     border-radius: 20px;
+}
+
+.food-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.food {
+    width: 400px;
+    height: 200px;
+    background-color: beige;
+    border-style: solid;
+}
+
+.food img {
+    width: 400px;
+    height: 180px;
+}
+
+.contact-card {
+    width: 250px;
+    text-align: left;
+    margin: 20px auto 50px auto;
+    padding: 10px;
+    background-color: chocolate;
+    border-radius: 15px;
 }

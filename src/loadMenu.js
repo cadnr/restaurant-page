@@ -23,17 +23,25 @@ const loadMenu = () => {
     const divMenu = document.createElement('div');
     divMenu.setAttribute('class', 'food-menu');
 
-    const divFood1 = document.createElement('div');
-    const divFood2 = document.createElement('div');
-    const divFood3 = document.createElement('div');
-    const divFood4 = document.createElement('div');
-    const divFood5 = document.createElement('div');
-    divFood1.textContent = 'Food 1';
-    divFood2.textContent = 'Food 2';
-    divFood3.textContent = 'Food 3';
-    divFood4.textContent = 'Food 4';
-    divFood5.textContent = 'Food 5';
-    divMenu.append(divFood1, divFood2, divFood3, divFood4, divFood5);
+    const images = [
+        '/img/food1-pexels-pixabay-315755.jpg',
+        '/img/food2-pexels-pixabay-357573.jpg',
+        '/img/food3-pexels-julie-aagaard-2097090.jpg',
+        '/img/food4-pexels-dzenina-lukac-1583884.jpg',
+        '/img/food5-pexels-elli-1854652.jpg',
+    ];
+    
+    
+    for (let i = 0; i < 5; i++) {
+        const divFood = document.createElement('div');
+        divFood.textContent = 'Food ' + [i+1];
+        divFood.classList.add('food');
+        const img = document.createElement('img');
+        img.setAttribute('src', images[i]);
+        divFood.appendChild(img);
+        divMenu.appendChild(divFood);
+
+    };
 
     content.append(header, divMenu);
 
