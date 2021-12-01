@@ -2,11 +2,11 @@
 
 const loadContact = () => {
     const content = document.querySelector('#content');
+
     content.innerHTML = '';
 
     const mainDiv = document.createElement('div');
-    
-    const header = document.createElement('header');
+     const header = document.createElement('header');
     const h1 = document.createElement('h1');
     h1.textContent = 'The Best Restaurant';
     const nav = document.createElement('nav');
@@ -31,6 +31,19 @@ const loadContact = () => {
     </div>`;
 
     content.append(header, contactInfo);
+
+    // const buttons = document.querySelector('nav');
+    // buttons.addEventListener('click', function(e){
+    //     console.log(e.target.innerHTML);
+    //     let b = e.target.innerHTML;
+    //     if(b == 'Home') {
+    //         firstLoad();
+    //     } else if (b == 'Menu') {
+    //         loadMenu();
+    //     } else {
+    //         loadContact();
+    //     }
+    // });
 };
 
 export default loadContact;

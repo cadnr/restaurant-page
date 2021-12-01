@@ -45,6 +45,18 @@ const loadMenu = () => {
 
     content.append(header, divMenu);
 
+    // const buttons = document.querySelector('nav');
+    // buttons.addEventListener('click', function(e){
+    //     console.log(e.target.innerHTML);
+    //     let b = e.target.innerHTML;
+    //     if(b == 'Home') {
+    //         firstLoad();
+    //     } else if (b == 'Menu') {
+    //         loadMenu();
+    //     } else {
+    //         loadContact();
+    //     }
+    // });
 };
 
 export default loadMenu;

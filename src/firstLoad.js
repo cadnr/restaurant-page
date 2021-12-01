@@ -20,6 +20,7 @@ const firstLoad = () => {
     ul.append(a1, a2, a3);
     nav.append(ul);
     header.append(h1, nav);
+    
     const div1 = document.createElement('div');
     const img = document.createElement('img');
     img.setAttribute('src', '/img/pexels-stokpic-5317.jpg');
@@ -35,6 +36,7 @@ const firstLoad = () => {
     div3.classList.add('discount');
 
     content.append(header, div1, h2, div2, div3);
+    
 };
 
 export default firstLoad;
