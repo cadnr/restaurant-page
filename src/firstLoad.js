@@ -23,7 +23,7 @@ const firstLoad = () => {
     
     const div1 = document.createElement('div');
     const img = document.createElement('img');
-    img.setAttribute('src', '/img/pexels-stokpic-5317.jpg');
+    img.setAttribute('src', './img/pexels-stokpic-5317.jpg');
     img.setAttribute('alt', 'food picture');
     div1.appendChild(img);
     const h2 = document.createElement('h2');

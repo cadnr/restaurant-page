@@ -24,11 +24,11 @@ const loadMenu = () => {
     divMenu.setAttribute('class', 'food-menu');
 
     const images = [
-        '/img/food1-pexels-pixabay-315755.jpg',
-        '/img/food2-pexels-pixabay-357573.jpg',
-        '/img/food3-pexels-julie-aagaard-2097090.jpg',
-        '/img/food4-pexels-dzenina-lukac-1583884.jpg',
-        '/img/food5-pexels-elli-1854652.jpg',
+        './img/food1-pexels-pixabay-315755.jpg',
+        './img/food2-pexels-pixabay-357573.jpg',
+        './img/food3-pexels-julie-aagaard-2097090.jpg',
+        './img/food4-pexels-dzenina-lukac-1583884.jpg',
+        './img/food5-pexels-elli-1854652.jpg',
     ];
     
     
